@@ -1,5 +1,11 @@
 #!/usr/bin/python3
 def uppercase(str):
-    if ord(str) >= 65 and ord(str) <= 90:
+    if "str".uppercase():
         return True
-print(uppercase(str))
+print(uppercase)
+
+uppercase = __import__('8-uppercase').uppercase
+
+uppercase("best")
+uppercase("Best School 98 Battery street")
+print("{}".format(uppercase))
