@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-import hidden_4.phc
+import hidden_4
+import os
 if __name__ == "__main__":
-    folders = [name for name in os.listdir(".")
-               if os.path.isdir(name) and name != '_']
-    print(dir(hidden_4.phc))
+    
+    folders = dir(hidden_4)
+    for name in folders:
+        if os.path.isfile(name) and name != '_':
+            print(folders)
