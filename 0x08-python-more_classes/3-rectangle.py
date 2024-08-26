@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+
 """class rectangle that defines rectangle"""
+
 
 class Rectangle:
     """class Rectangle that defines a rectangle"""
@@ -73,8 +75,8 @@ class Rectangle:
         if self.__width is 0 or self.__height is 0:
             return ""
         return ("\n".join(["".join(["#" for i in range(self.__width)])
-                for j in range(self.__height)]))
+               for j in range(self.__height)]))
 
-   def __repr__(self):
+    def __repr__(self):
        """returns a string representation of the rectangle"""
           return "Rectangle({}, {})".format(self.__width, self.__height)

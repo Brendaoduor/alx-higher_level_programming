@@ -1,8 +1,11 @@
 #!/usr/bin/python3
+
 """a class Rectangle that defines a rectangle"""
+
 
 class Rectangle:
     """a class Rectangle that defines a rectangle"""
+
     def __init__(self, width=0, height=0):
         """ init rectangle
 
@@ -33,7 +36,7 @@ class Rectangle:
         elif value < 0:
             raise ValueError('width must be >= 0')
         else:
-            self.__width = value #: width of the rectangle
+            self.__width = value  #: width of the rectangle
 
     @property
     def height(self):
@@ -56,4 +59,4 @@ class Rectangle:
         elif value < 0:
             raise ValueError('height must be >= 0')
         else:
-            self.__height = value #: height of the rectangle
+            self.__height = value  #: height of the rectangle
